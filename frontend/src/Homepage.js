@@ -6,14 +6,14 @@ import {
     Navbar,
     NavbarToggler,
     NavbarBrand,
-    Nav,
-    NavItem,
     NavLink,
     UncontrolledDropdown,
     DropdownToggle,
     DropdownMenu,
     DropdownItem
 } from 'reactstrap'
+
+import { FaHome, FaPlus } from 'react-icons/fa';
 import './Homepage.css';
 
 
@@ -28,21 +28,14 @@ class Homepage extends Component {
     render() {
         return (
 
-            <div className="App">
-
-                <Navbar>
-                    <Link to='/user1'>
-                        <Button>
-                            Page1
-                          </Button>
-                    </Link>
-                    <Link to='/user2'>
-                        <Button>
-                            Page2
-                        </Button>
-                    </Link>
-                </Navbar>
-
+            <div class="row">
+                <div class="col-lg-2">
+                    <aside>
+                        <Button href='./Page1'><FaHome /></Button>
+                        <br/><br/>
+                        <Button href='./Page2'><FaPlus /></Button>
+                    </aside>
+                </div>
             </div>
 
         );

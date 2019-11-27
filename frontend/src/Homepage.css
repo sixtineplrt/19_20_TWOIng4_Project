@@ -1,0 +1,16 @@
+.row aside{
+    height: 100%;
+}
+
+.row aside button {
+    vertical-align: middle;
+}
+
+aside {
+    display: block;
+    border-radius: 20px;
+    margin: 50px;
+    background-color: #FFA07B;
+    box-shadow: 10px 10px 40px #000000;
+    text-align: center;
+}
