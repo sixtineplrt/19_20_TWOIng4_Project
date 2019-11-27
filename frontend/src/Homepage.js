@@ -18,6 +18,7 @@ import './Homepage.css';
 
 
 
+
 class Homepage extends Component {
 
     constructor(props) {
@@ -31,12 +32,12 @@ class Homepage extends Component {
             <div className="App">
 
                 <Navbar>
-                    <Link to='/user1'>
+                    <Link to='/Page1'>
                         <Button>
                             Page1
                           </Button>
                     </Link>
-                    <Link to='/user2'>
+                    <Link to='/Page2'>
                         <Button>
                             Page2
                         </Button>

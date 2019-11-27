@@ -1,0 +1,13 @@
+.Form {
+    font-family: 'Lucida Console';
+    text-align: center;
+    border: outset grey 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px; 
+    padding-left: 15px; 
+    padding-right:15px;
+    background: lightgrey;
+}
