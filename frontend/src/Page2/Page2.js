@@ -1,8 +1,10 @@
 import React from 'react';
 import { Component } from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom'
-import { Button, Container, Col, Row } from 'reactstrap'
+import { Button, Container, Col, Row, Card, CardImg } from 'reactstrap'
 import './Page2.css';
+import Image from './img.jpg';
+import Formulaire from './Formulaire.js';
 import Img from 'react-image'
 
 
@@ -17,29 +19,34 @@ class Page2 extends Component {
     render() {
         return (
 
-            <div className="App">
 
-                <div className="header">
-                    Acheter Album
-                    <Img src="./img.jpg/171x180" rounded />
-                </div>
-                <div className="img">
-                <Container>
+            <div className='page'>  
                     <Row>
-                        <Col xs={6} md={4}>
-                                <Img src="./img.jpg" rounded />
+                        <Col xs={1}>
+
                         </Col>
-                        <Col xs={6} md={4}>
-                                <Img src="./img.jpg" roundedCircle />
+                        <Col xs={10}>
+                            <h1> Acheter album </h1>
                         </Col>
-                        <Col xs={6} md={4}>
-                                <Img src="./img.jpg" thumbnail />
+                        <Col xs={1}>
+                           
                         </Col>
                     </Row>
-                    </Container>
+                    <Row>
+                        
+                    <Col xs={4}>
+                        
+                            <CardImg top width="100%" src={Image} alt="Image" />
+                          
+                        </Col>
+                        <Col xs={8}>
+                            <Formulaire/>                      
+                        </Col>
+                    </Row>
                 </div>
+             
 
-            </div>
+
         );
     }
 

@@ -12,7 +12,6 @@ import {
     DropdownMenu,
     DropdownItem
 } from 'reactstrap'
-
 import { FaHome, FaPlus } from 'react-icons/fa';
 import './Homepage.css';
 
@@ -29,15 +28,11 @@ class Homepage extends Component {
     render() {
         return (
 
-            <div class="row">
-                <div class="col-lg-2">
-                    <aside>
-                        <Button href='./Page1'><FaHome /></Button>
-                        <br/><br/>
-                        <Button href='./Page2'><FaPlus /></Button>
-                    </aside>
-                </div>
-            </div>
+            <aside>
+                <a href='./Page1'><FaHome /></a>
+                <br /><br />
+                <a href='./Page2'><FaPlus /></a>
+            </aside>
 
         );
     }
