@@ -1,7 +1,3 @@
-# Projet de fin de semestre
+Bienvenue, vous êtes sur le projet réalisé par Salomé MASBERNAT et Sixtine POLART
 
-Sixtine Polart
-Salomé Masbernat
-
-Lien du airtable : https://airtable.com/invite/l?inviteId=invyaYjzcTGVgJBux&inviteToken=c7e418e5dbfb72fc242c1840cf205f769032690124d150d85cb7e6f6eea77786
-Lien du git: 
+Lien GitHub : https://github.com/sixtineplrt/19_20_TWOIng4_Project.git
