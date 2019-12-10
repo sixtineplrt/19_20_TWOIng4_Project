@@ -1,0 +1,10 @@
+.page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    order: 2;
+    flex-grow: 2;
+    align-self: flex-end;
+}

@@ -1,8 +1,15 @@
 .card {
-    height:65vh;
-    margin-top:100px;
+    height:30em;
+    margin-top:2em;
+    max-width: 100%;
 }
 
 .carde {
-    margin-top: 5px;
+    margin-top: 1em;
+    max-width: 100%;
+}
+
+.cardes {
+    margin-top: 1em;
+    max-width: 100%;
 }

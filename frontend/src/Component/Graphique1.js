@@ -1,8 +1,6 @@
 import React from 'react';
-import { Component, PureComponent } from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom'
-import { Container, Row, Col, Nav, NavItem, NavLink } from 'reactstrap'
-import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import { Component} from 'react';
+import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid } from 'recharts';
 import PropTypes from 'prop-types';
 import { scaleOrdinal } from 'd3-scale';
 import { schemeCategory10 } from 'd3-scale-chromatic';
@@ -14,25 +12,16 @@ const colors = scaleOrdinal(schemeCategory10).range();
 
 const data = [
     {
-        name: 'Page A', uv: 4000, female: 2400, male: 2400,
+        name: 'Sensor1', uv: 4000, female: 2400, male: 2400,
     },
     {
-        name: 'Page B', uv: 3000, female: 1398, male: 2210,
+        name: 'Sensor2', uv: 3000, female: 1398, male: 2210,
     },
     {
-        name: 'Page C', uv: 2000, female: 9800, male: 2290,
+        name: 'Sensor3', uv: 2000, female: 9800, male: 2290,
     },
     {
-        name: 'Page D', uv: 2780, female: 3908, male: 2000,
-    },
-    {
-        name: 'Page E', uv: 1890, female: 4800, male: 2181,
-    },
-    {
-        name: 'Page F', uv: 2390, female: 3800, male: 2500,
-    },
-    {
-        name: 'Page G', uv: 3490, female: 4300, male: 2100,
+        name: 'Sensor4', uv: 2780, female: 3908, male: 2000,
     },
 ];
 
@@ -62,20 +51,17 @@ TriangleBar.propTypes = {
 
 class Graphique1 extends Component {
 
-    constructor(props) {
-        super(props);
-    }
     static jsfiddleUrl = 'https://jsfiddle.net/alidingling/rnywhbu8/';
     render() {
         return (
-            <div className='graph1'>
+            <div className='graph1 '>
 
                 <BarChart
-                    width={280}
-                    height={180}
+                    width={380}
+                    height={280}
                     data={data}
                     margin={{
-                        top: 20, right: 30, left: 20, bottom: 5,
+                        top: 20, right: 20, left: 20, bottom: 10,
                     }}
                 >
                     <CartesianGrid strokeDasharray="3 3" />

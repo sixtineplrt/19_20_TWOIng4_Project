@@ -4,24 +4,28 @@
     border-radius: 20px;
     box-shadow: 20px 20px 150px #000000;
     margin-left: 30px;
+    margin-right: 30px;
     height: 70vh;
-    width: 50vh;
+    max-width: 100% ;
     margin-top: 10vh
     
 }
 
 .Form  label{
     margin-top: 25px;
+    max-width: 100% ;
 }
 
 .Form input {
      border-radius: 20px;
      box-shadow: 20px 20px 150px #000000;
      align-content: center;
+     max-width: 100% ;
 }
 
 .Form select {
      border-radius: 20px;
      box-shadow: 20px 20px 150px #000000;
      align-content: center;
+     max-width: 100% ;
 }
