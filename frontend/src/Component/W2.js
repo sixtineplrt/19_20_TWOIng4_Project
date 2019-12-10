@@ -15,7 +15,10 @@ class W2 extends Component {
     }
     
     
-    componentDidMount() {        
+    componentDidMount() {     
+        /*this.setState({
+            numberSensors: 15
+        });*/   
         axios.get('http://localhost:3000/sensors/numberSensors')
             .then(response => {
                 const test = response.data;
@@ -24,6 +27,9 @@ class W2 extends Component {
                 });
             })
             .catch(e => {
+                /*this.setState({
+                    numberSensors: 15
+                });*/
                 console.error(e)
             });
     }
